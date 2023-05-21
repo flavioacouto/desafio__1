@@ -1,0 +1,167 @@
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria_1: #58594D;
+    --cor-terciaria_2: #BFAF8F;
+    --cor-terciaria_3: #A69C8A;
+    --cor-terciaria_4: #dfdfdf;
+    --cor-terciaria_5: #8b0ff8b7;
+
+    --fonte-principal: Arial, Helvetica, sans-serif 
+
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: var(--fonte-principal);
+    color: var(--cor-primaria);
+}
+
+header {
+    background-color: var(--cor-secundaria);
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem ;
+    align-items: baseline;
+}
+
+.menu__texto {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.links a {
+    text-decoration: none;
+    color: #000000;
+    padding-left: 1rem;
+}
+
+.links__botao {
+    color: #000000;
+    text-decoration: none;
+    background-color: var(--cor-terciaria_4);
+    padding: 0.5rem 2.5rem;
+    border: solid var(--cor-primaria) 0.05rem;
+    border-radius: 0.3rem;
+}
+
+.titulo__principal {
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.best__value {
+    height: 70.6vh;
+    background-color: var(--cor-terciaria_4);
+    padding-bottom: 2rem;
+}
+
+.best__value__paragrafo {
+    text-align: center;
+    padding: 0 8rem 2rem ;
+}
+
+.best__value__botao {
+    display: block;
+    margin: auto;
+    padding: 1em 3em;
+    color: var(--cor-secundaria);
+    background-color: var(--cor-terciaria_5);
+    border: none;
+    border-radius: 0.25em;  
+}
+
+.best__value__espaco {
+    display: flex;
+    justify-content: center;
+}
+
+.best__value__espaco__bola {
+    margin-top: 2rem;
+    width: 70vw;
+    height: 30vh;
+    background-color: #F6F6F6;
+    border: 0.05rem solid var(--cor-terciaria_2);
+    border-bottom: none;
+    border-radius: 0.2rem 0.2rem 0 0;
+    padding: 10px;
+
+}
+
+.bola1 {
+    height: 10px;
+    width: 10px;
+    background-color: #F6F6F6;
+    border-radius: 50%;
+    border: solid var(--cor-terciaria_2) 0.025rem;
+    display: inline-block;
+}
+
+.bola2 {
+    height: 10px;
+    width: 10px;
+    background-color: #F6F6F6;
+    border-radius: 50%;
+    border: solid var(--cor-terciaria_2) 0.025rem;
+    display: inline-block;
+    
+}
+.bola3 {
+    height: 10px;
+    width: 10px;
+    background-color: #F6F6F6;
+    border-radius: 50%;
+    border: solid var(--cor-terciaria_2) 0.025rem;
+    display: inline-block;
+}
+
+.best__value__espaco__quadrado1 {
+    height: 100px;
+    width: 100px;
+    background-color: var(--cor-terciaria_1);
+}
+
+.best__value__espaco__quadrado2 {
+    height: 100px;
+    width: 100px;
+    background-color: var(--cor-terciaria_1);
+}
+
+.best__value__espaco__quadrado3 {
+    height: 100px;
+    width: 100px;
+    background-color: var(--cor-terciaria_1);
+}
+
+.best__value__secundaria {
+    width: 100vw;
+}
+
+.titulo__secundario {
+    text-align: center;
+    padding: 2rem 0
+}
+
+.best__value__secundaria__paragrafo {
+    text-align: center;
+    padding: 0 8rem 2rem ;
+}
+
+.best__value__quadrados {
+    display: flex;
+}
+
+.texto__quadrados {
+    display: block;
+}
