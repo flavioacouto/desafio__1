@@ -9,9 +9,7 @@
     --cor-terciaria_6: #334155;
     --cor-terciaria_7:#94A3B8;
 
-    --fonte-principal: 'roboto', sans-serif 
-
-    
+    --fonte-principal: 'roboto', sans-serif  
 }
 
 * {
@@ -39,7 +37,6 @@ header {
 }
 
 .menu__texto {
-
     font-size: 24px;
     font-weight: 700;
 }
@@ -57,7 +54,7 @@ header {
     font-weight: 400;
     color: #000000;
     text-decoration: none;
-    background-color: var(--cor-terciaria_4);
+    background-color: transparent;
     padding: 0.5rem 2.5rem;
     border: solid var(--cor-primaria) 0.05rem;
     border-radius: 5px;
@@ -108,28 +105,9 @@ header {
     border-bottom: none;
     border-radius: 4px 4px 0 0;
     padding: 10px;
-
 }
 
-.bola1 {
-    height: 12px;
-    width: 12px;
-    background-color: #F6F6F6;
-    border-radius: 50%;
-    border: solid var(--cor-terciaria_1) 0.025rem;
-    display: inline-block;
-}
-
-.bola2 {
-    height: 12px;
-    width: 12px;
-    background-color: #F6F6F6;
-    border-radius: 50%;
-    border: solid var(--cor-terciaria_1) 0.025rem;
-    display: inline-block;
-    
-}
-.bola3 {
+.bola {
     height: 12px;
     width: 12px;
     background-color: #F6F6F6;
@@ -167,29 +145,17 @@ header {
     padding-bottom: 6rem;
 }
 
-.best__value__espaco__quadrado1 {
+.best__value__espaco__quadrado {
     height: 370px;
     width: 370px;
     background-color: var(--cor-terciaria_1);
 }
 
-.best__value__espaco__quadrado2 {
-    height: 370px;
-    width: 370px;
-    background-color: var(--cor-terciaria_1);
-}
-
-.best__value__espaco__quadrado3 {
-    height: 370px;
-    width: 370px;
-    background-color: var(--cor-terciaria_1);
-}
-
-.best__value__quadrado1__texto {
+.best__value__quadrado__texto {
     padding: 1.5rem 0 0.5rem 0;
 }
 
-.best__value__quadrado1__leia__mais {
+.best__value__quadrado__leia__mais {
     font-size: 14px;
     flex-direction: column;
 }
@@ -200,6 +166,7 @@ header {
     text-align: center;
     gap: 1rem;
     border: none;
+    padding-bottom: 3rem;
 }
 
 
@@ -213,7 +180,8 @@ h3 {
 }
 
 .formulario__email input {
-    width: 22.5rem;
+    padding: 1rem;
+    width: 21.5rem;
     color: var(--cor-terciaria_7);
     font-size: 20px;
     font-weight: 400;
@@ -222,7 +190,8 @@ h3 {
 }
 
 .formulario__senha input {
-    width: 22.5rem;
+    padding: 1rem;
+    width: 21.5rem;
     color: var(--cor-terciaria_7);
     font-size: 20px;
     font-weight: 400;
@@ -231,7 +200,7 @@ h3 {
 }
 
 .links__botao__getstarted {
-    width: 22.5rem;
+    width: 23.5rem;
     font-size: 18px;
     font-weight: 400;
     text-decoration: none;
@@ -242,4 +211,70 @@ h3 {
     border: none;
     border-radius: 0.3125rem;
     margin: auto;
+}
+
+footer {
+    background-color: var(--cor-secundaria);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.menu__footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20rem 3rem;
+    color: var(--cor-terciaria_2);
+}
+
+.links__footer__product {
+    display: flex;
+    gap: 5rem ;
+}
+
+.links__footer__about {
+    display: flex;
+    gap: 5rem ;
+}
+
+.footer__trade {
+    font-size: 24px;
+}
+
+.links__footer__product a {
+    color: var(--cor-terciaria_6);
+    text-decoration: none;
+}
+
+.links__footer__about a {
+    color: var(--cor-terciaria_6);
+    text-decoration: none;
+}
+
+hr {
+    margin-top: 1em;
+    margin-bottom: 5em;
+    margin-left: 13.75rem;
+    margin-right: 13.75rem;
+    border: 1px solid var(--cor-terciaria_1);
+}
+
+.footer__circulo__40 {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding-bottom: 4rem;
+}
+
+.circulo {
+    height: 40px;
+    width: 40px;
+    background-color: tr;
+    border-radius: 50%;
+    border: solid var(--cor-terciaria_1) 0.025rem;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 14px;
 }
