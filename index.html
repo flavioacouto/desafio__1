@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap')">
     <title>Desafio</title>
 </head>
 <body>
@@ -20,28 +21,54 @@
             <a class="links__botao" href="#">Sign Up</a>
         </nav>
     </header>
-    <section class="best__value">
-        <h1 class="titulo__principal">Your Best Value Proposition</h1>
-        <p class="best__value__paragrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea corrupti dolorem cum deleniti. Asperiores quia quis rerum tenetur facere id impedit quam cum rem soluta et porro non, nulla aliquam.</p>
-        <button class="best__value__botao">Get started</button>
-        <section class="best__value__espaco">
-            <div class="best__value__espaco__bola">
-                <div class="bola1"></div>
-                <div class="bola2"></div>
-                <div class="bola3"></div>
+    <main>
+        <section class="best__value">
+            <h1 class="titulo__principal">Your Best Value Proposition</h1>
+            <p class="best__value__paragrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea corrupti dolorem cum deleniti. Asperiores quia quis rerum tenetur facere id impedit quam cum rem soluta et porro non, nulla aliquam.</p>
+            <button class="best__value__botao">Get started</button>
+            <section class="best__value__espaco">
+                <div class="best__value__espaco__bola">
+                    <div class="bola1"></div>
+                    <div class="bola2"></div>
+                    <div class="bola3"></div>
             </div>
         </section>
-    </section>
+    </main>
+
     <section class="best__value__secundaria">
         <h2 class="titulo__secundario">Your Best Value Proposition</h2>
         <p class="best__value__secundaria__paragrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea corrupti dolorem cum deleniti. Asperiores quia quis rerum tenetur facere.</p>
-        <section class="best__value__quadrados">
-            <div class="best__value__espaco__quadrado1"></div>
-            <p>Learn More</p>
-            <div class="best__value__espaco__quadrado2"></div>
-            <p>Learn More</p>
-            <div class="best__value__espaco__quadrado3"></div>
-            <p>Learn More</p>
+        <section class="best__value__secundaria__quadrados">
+            <section class="best__value__quadrado1">
+                <div class="best__value__espaco__quadrado1"></div>
+                <p class="best__value__quadrado1__texto">Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit</p>
+                <p class= "best__value__quadrado1__leia__mais">Learn More</p>
+            </section>
+            <section class="best__value__quadrado2">
+                <div class="best__value__espaco__quadrado2"></div>
+                <p class="best__value__quadrado1__texto">Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit</p>
+                <p class= "best__value__quadrado1__leia__mais">Learn More</p>
+            </section>
+            <section class="best__value__quadrado3">
+                <div class="best__value__espaco__quadrado3"></div>
+                <p class="best__value__quadrado1__texto">Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit</p>
+                <p class= "best__value__quadrado1__leia__mais">Learn More</p>
+            </section>
+        </section>
+    <section class="formulario">
+        <form action="#" method="post" autocomplete="on">
+                <fieldset class="formulario">
+                    <h3>Try the product out for free</h3> 
+                    <p class="formulario__email">
+                        <label for="iemail"></label>
+                        <input type="email" name="email" class="botao__email" id="iemail" autocomplete="email" required placeholder="email">
+                    </p>
+                    <p class="formulario__senha">
+                        <input type="password" name="password" class="botao__senha" id="ipassword" autocomplete="password" required placeholder="password">
+                    </p>
+                    <a class="links__botao__getstarted" href="#">Start free trial</a>
+                </fieldset>
+        </form>
         </section>
     </section>
     
